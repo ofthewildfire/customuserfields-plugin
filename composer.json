@@ -1,0 +1,20 @@
+{
+    "name": "ofthewildfire/customuserfields-plugin",
+    "type": "october-plugin",
+    "description": "Extends the OctoberCMS Users plugin with additional fields for academy members",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0",
+        "rainlab/user-plugin": ">=1.6.0"
+    },
+    "extra": {
+        "installer-name": "academyusers"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ofthewildfire/customuserfields-plugin"
+        }
+    ]
+} 

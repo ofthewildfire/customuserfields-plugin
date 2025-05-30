@@ -1,0 +1,6 @@
+1.0.0:
+    - 'Initial release with custom registration fields'
+    - 'Added organization, city/state, and reason for joining fields to registration form'
+    - 'Extended RainLab.User plugin with additional academy member fields'
+    - 'Created custom registration form component'
+    - 'Added database fields for academy member information'
