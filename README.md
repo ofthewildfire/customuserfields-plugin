@@ -13,9 +13,10 @@ Extends the OctoberCMS Users plugin with additional fields for academy members.
 
 ## Installation
 
-1. Install the plugin via Composer:
+To install this plugin, run the following command:
+
 ```bash
-composer require ofthewildfire/academyusers
+composer require ofthewildfire/customuserfields-plugin
 ```
 
 2. **Important**: After installation, run the database migration:

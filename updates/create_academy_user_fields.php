@@ -1,4 +1,4 @@
-<?php namespace ofthewildfire\academyusers\Updates;
+<?php namespace ofthewildfire\customuserfields\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;

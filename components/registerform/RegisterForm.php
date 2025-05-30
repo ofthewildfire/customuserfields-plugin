@@ -1,4 +1,4 @@
-<?php namespace ofthewildfire\academyusers\Components;
+<?php namespace ofthewildfire\customuserfields\Components;
 
 use Cms\Classes\ComponentBase;
 use RainLab\User\Components\Account as AccountComponent;
@@ -34,9 +34,6 @@ class RegisterForm extends AccountComponent
     public function onRun()
     {
         parent::onRun();
-        
-        // Add custom fields to the form
-        $this->addJs('/plugins/ofthewildfire/academyusers/assets/js/register.js');
     }
 
     public function onRegister()

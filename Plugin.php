@@ -1,4 +1,4 @@
-<?php namespace ofthewildfire\academyusers;
+<?php namespace ofthewildfire\customuserfields;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -16,7 +16,7 @@ class Plugin extends PluginBase
             'description' => 'Extends the Users plugin with additional fields for academy members',
             'author'      => 'ofthewildfire',
             'icon'        => 'icon-user-plus',
-            'homepage'    => 'https://github.com/ofthewildfire/academyusers'
+            'homepage'    => 'https://github.com/ofthewildfire/customuserfields-plugin'
         ];
     }
 
@@ -88,8 +88,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'ofthewildfire\academyusers\Components\ProfileForm' => 'profileForm',
-            'ofthewildfire\academyusers\Components\RegisterForm' => 'registerForm'
+            'ofthewildfire\customuserfields\Components\ProfileForm' => 'profileForm',
+            'ofthewildfire\customuserfields\Components\RegisterForm' => 'registerForm'
         ];
     }
 } 
