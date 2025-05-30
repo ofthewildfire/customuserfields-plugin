@@ -4,3 +4,9 @@
     - 'Extended RainLab.User plugin with additional academy member fields'
     - 'Created custom registration form component'
     - 'Added database fields for academy member information'
+
+1.0.1:
+    - 'Added registration form component files'
+    - 'Added RegisterForm.php component'
+    - 'Added registration form template'
+    - 'Updated Plugin.php to register new component'
