@@ -9,7 +9,7 @@
         "rainlab/user-plugin": ">=1.6.0"
     },
     "extra": {
-        "installer-name": "academyusers"
+        "installer-name": "customuserfields"
     },
     "repositories": [
         {

@@ -10,3 +10,9 @@
     - 'Added RegisterForm.php component'
     - 'Added registration form template'
     - 'Updated Plugin.php to register new component'
+
+1.0.2:
+    - 'Updated plugin namespace to customuserfields'
+    - 'Updated installer-name to customuserfields'
+    - 'Fixed component registration paths'
+    - 'Removed unused JS file reference'
